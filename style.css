@@ -1,1 +1,18 @@
+html body{
+    font-family: "Avenir Next",sans-serif;
 
+}
+
+hr{
+    border-top: 2px dashed black;
+   
+    width:20px;
+    display: flex;
+    align-items: center;
+  }
+
+div.separator{
+    
+    display: flex;
+    align-items: center;
+}
