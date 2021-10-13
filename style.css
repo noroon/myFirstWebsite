@@ -1,18 +1,71 @@
-html body{
-    font-family: "Avenir Next",sans-serif;
+body{
+    font-family: 'Merriweather', serif;
+    background-image: url("topography.png");
+}
 
+.navbar{
+    text-transform: uppercase;
+    background-color: rgb(33, 34, 33);
+    height:52px;
+    align-content: flex-end;
+}
+
+ul{
+    align-content: flex-end;
+    position: relative;
+    text-align: right;
+    z-index: 10;
+    vertical-align: top;
+}
+
+a{
+    color: deeppink;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: 700;
+}
+
+p{
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: 600;
+}
+
+li{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+    align-content: flex-end;
+    padding: 10px;
+    position: relative;
+}
+
+#logo{
+    padding: 10px;
 }
 
 hr{
     border-top: 2px dashed black;
-   
     width:20px;
     display: flex;
     align-items: center;
-  }
+}
 
 div.separator{
     
     display: flex;
     align-items: center;
+}
+
+img{
+    vertical-align: middle;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 18px;
+    font-weight: 600;
+    color: deeppink;
 }
