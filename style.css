@@ -4,7 +4,6 @@ body{
     background-repeat: repeat;
     background-position: center;
     margin: 0px;
-    line-height: 2em;
 }
 
 header{
@@ -91,14 +90,18 @@ h3{
 h4{
     font-size: 22px;
     font-weight: 600;
+    margin: 1rem 0px 1rem 0px;
 }
 
 p{
     font-family: 'Noto Sans Mono', monospace;
     font-weight: 600;
+    font-size: 14px;
     padding-bottom: 1rem;
+    line-height: 1.5em;
 }
 
-p .wiki{
-    font-size: 4px;
+.introduction{
+    font-size: 16px;
+    line-height: 2em;
 }
