@@ -1,5 +1,5 @@
 .favicon{
-    fill: black;
+    filter: brightness(0%);
 }
 
 body{
@@ -12,14 +12,15 @@ body{
 
 header{
     display: flex;
-    background-color: rgb(33, 34, 33);
+    background-color: #333333;
     height:52px;
     width: screen;
     align-items: center;
+
 }
 
 header, section{
-    padding: 0em 15%;
+    padding: 0em 10%;
 }
 
 #logo{
@@ -30,7 +31,7 @@ nav{
     display: flex;
     position: absolute;
     right: 0;
-    padding: 0em 15%;
+    padding: 0em 10%;
 }
 
 .navbar{
@@ -55,17 +56,20 @@ li{
 }
 
 a{
-    color: deeppink;
+    color: #ff0099;
     font-family: 'Noto Sans Mono', monospace;
+    font-size: 14px;
     font-weight: 700;
 }
 
 hr{
     border-top: 2px dashed black;
     width:20px;
+    height: 0px;
     display: flex;
     align-items: center;
-    padding: 1rem 0px 1rem 0px;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
 }
 
 /* div.separator{
@@ -83,7 +87,7 @@ h1{
 h2{
     font-size: 22px;
     font-weight: 600;
-    color: deeppink;
+    color: #ff0099;
     padding-bottom: 1rem;
 }
 
