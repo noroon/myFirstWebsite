@@ -15,10 +15,14 @@ body{
 
 header{
     display: flex;
-    background-color: #333333;
     height: 52px;
-    width: screen;
+    width: 80%;
     align-items: center;
+    background-color: #333333;
+    position: relative;
+    top:0px;
+    left:0px;
+    position: fixed;
 }
 
 header, section{
@@ -27,13 +31,14 @@ header, section{
 
 #logo{
     margin: 10px 10px 10px 0px;
+    position: absolute;
 }
 
 nav{
-    display: flex;
+    height: 52px;
     position: absolute;
     right: 0;
-    padding: 0em 10%;
+    padding: 0em 10% 0em 0em;
 }
 
 .navbar{
@@ -43,7 +48,7 @@ nav{
 li{
     display: inline-block;
     text-align: right;
-    padding: 20px 0px 20px 40px;
+    padding: 0px 0px 0px 30px;
 }
 
 a{
