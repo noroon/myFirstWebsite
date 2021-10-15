@@ -1,9 +1,12 @@
-#favicon{
-    filter: brightness(0%);
+* {
+    font-family: Consolas, monaco, monospace;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Merriweather', serif;
 }
 
 body{
-    font-family: 'Merriweather', serif;
     background-image: url("assets/topography.png");
     background-repeat: repeat;
     background-position: center;
@@ -16,7 +19,6 @@ header{
     height:52px;
     width: screen;
     align-items: center;
-
 }
 
 header, section{
@@ -25,7 +27,6 @@ header, section{
 
 #logo{
     margin: 10px 10px 10px 0px;
-
 }
 
 nav{
@@ -37,30 +38,19 @@ nav{
 
 .navbar{
     text-transform: uppercase;
-   /* align-content: flex-end; */
 }
-
-/*ul{
-    align-content: flex-end;
-    position: relative;
-    text-align: right;
-    z-index: 10;
-    vertical-align: top;
-} */
 
 li{
     display: inline-block;
-    vertical-align: middle;
     text-align: right;
-    padding: 10px;
-    position: relative;
+    padding: 20px 0px 20px 40px;
 }
 
 a{
     color: #ff0099;
     font-family: 'Noto Sans Mono', monospace;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 hr{
@@ -73,35 +63,29 @@ hr{
     margin-bottom: 3rem;
 }
 
-/* div.separator{
-    
-    display: flex;
-    align-items: center;
-} */
-
 h1{
-    font-size: 40px;
-    font-weight: 700;
+    font-size: 44px;
+    font-weight: 900;
     padding: 2rem 0px 1rem 0px;
     margin-top: 100px;
 }
 
 h2{
-    font-size: 22px;
-    font-weight: 600;
+    font-size: 28px;
+    font-weight: 700;
     color: #ff0099;
-    padding-bottom: 1rem;
 }
 
 h3{
     text-align: center;
-    font-size: 26px;
+    font-size: 32px;
     padding-bottom: 1rem;
+    font-weight: 900;
 }
 
 h4{
-    font-size: 22px;
-    font-weight: 600;
+    font-size: 26px;
+    font-weight: 900;
     margin: 1rem 0px 1rem 0px;
 }
 
@@ -110,11 +94,11 @@ p{
     font-weight: 600;
     font-size: 14px;
     padding-bottom: 1rem;
-    line-height: 1.5em;
+    line-height: 1.7em;
 }
 
 .introduction{
-    font-weight: 800;
-    font-size: 16px;
-    line-height: 2em;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.5em;
 }
