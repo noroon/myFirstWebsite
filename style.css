@@ -1,4 +1,4 @@
-* {
+*{
     font-family: Consolas, monaco, monospace;
 }
 
@@ -16,7 +16,7 @@ body{
 header{
     display: flex;
     background-color: #333333;
-    height:52px;
+    height: 52px;
     width: screen;
     align-items: center;
 }
