@@ -4,7 +4,7 @@
 
 body{
     font-family: 'Merriweather', serif;
-    background-image: url("/assets/topography.png");
+    background-image: url("myFirstWebsite/assets/topography.png");
     background-repeat: repeat;
     background-position: center;
     margin: 0px;
